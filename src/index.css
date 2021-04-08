@@ -1,0 +1,36 @@
+* {
+	padding: 0;
+	margin: 0;
+	color: #222222;
+}
+
+body {
+	font-family: "Nunito", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+code {
+	font-family: "Nunito", sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1280px;
+}
+
+p {
+	line-height: 30px;
+	font-family: "Nunito", sans-serif;
+}
