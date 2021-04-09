@@ -31,7 +31,6 @@ const About = () => {
 				<i className="fab fa-react fa-5x"></i>
 				<i className="fas fa-database fa-5x"></i>
 				<i className="fas fa-terminal fa-4x"></i>
-				<i className="fab fa-ubuntu fa-5x"></i>
 			</div>
 			<div className="section">
 				<h2 className="section-header">Achievements</h2>
