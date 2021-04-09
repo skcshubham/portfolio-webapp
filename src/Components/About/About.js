@@ -40,6 +40,8 @@ const About = () => {
 						<a
 							href="https://auth.geeksforgeeks.org/user/skcshubham/practice/"
 							style={{ color: "blue" }}
+							target="_blank"
+							rel="noreferrer"
 						>
 							Link to profile
 						</a>
@@ -50,6 +52,8 @@ const About = () => {
 						<a
 							href="https://leetcode.com/skcshubham/"
 							style={{ color: "blue" }}
+							target="_blank"
+							rel="noreferrer"
 						>
 							Link to profile
 						</a>
