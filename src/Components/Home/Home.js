@@ -7,13 +7,13 @@ const Home = () => {
 	return (
 		<div className="home">
 			<div className="title">
-				<h1>
-					<h5>Hey there,</h5>
-					<h3>I am Shubham Kumar</h3>
-					<h6>Frontend Engineer</h6>
-				</h1>
+				<span>
+					<h2>Hey there,</h2>
+					<h1>I am Shubham Kumar</h1>
+					<h5>Frontend Software Engineer</h5>
+				</span>
 				<Link to="/about">
-					<button>More Info about me</button>
+					<button>More about me</button>
 				</Link>
 			</div>
 			<div className="person">
