@@ -6,7 +6,7 @@ const About = () => {
 	return (
 		<div className="skills about">
 			<h1>About Me</h1>
-			<br />
+
 			<div className="content">
 				<div className="section">
 					<h2 className="section-header">Summary</h2>
@@ -22,7 +22,6 @@ const About = () => {
 			</div>
 			<div className="section">
 				<h2 className="section-header">Skills</h2>
-
 				<img src={cpp} alt="C++ logo" style={{ width: "68px" }} />
 				<i className="fab fa-html5 fa-5x"></i>
 				<i className="fab fa-css3 fa-5x"></i>
