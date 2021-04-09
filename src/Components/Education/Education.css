@@ -5,7 +5,8 @@
 
 .education-container h1,
 h2,
-h5 {
+h5,
+ul {
 	margin-bottom: 10px;
 }
 

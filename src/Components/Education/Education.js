@@ -4,9 +4,8 @@ import "./Education.css";
 const About = () => {
 	return (
 		<div className="education-container">
-			<h1 style={{ fontSize: "35px" }}>Education</h1>
 			<div className="education-section">
-				<h2>Undergraduate | 2018-present </h2>
+				<h1>Undergraduate | 2018-present </h1>
 				<h3>SRM Institute Of Science and Technology, Chennai | 9.82 CGPA</h3>
 				<h5>B.Tech | Computer Science Engineering</h5>
 				<ul>
@@ -22,14 +21,10 @@ const About = () => {
 						volunteered with NSS club for spreading awareness against climate
 						change, afforestation and elections.
 					</li>
-					<li>
-						volunteered for Texus: An annual national Tech fest organized by
-						SRMIST, Ramapuram.
-					</li>
 				</ul>
 			</div>
 			<div className="education-section">
-				<h2>Intermediate | 2016-2018 </h2>
+				<h1>Intermediate | 2016-2018 </h1>
 				<h3>SKP Vidya Vihar, Mandroza | 74.60 %</h3>
 				<h5>12th | CBSE | Physics, Chemistry, Maths</h5>
 				<ul>
@@ -38,11 +33,10 @@ const About = () => {
 						wrote various articles and brochures for the school's annual
 						yearbook.
 					</li>
-					<li>volunteered to organize the annual day fest.</li>
 				</ul>
 			</div>
 			<div className="education-section">
-				<h2>Matriculation | 2004-2016 </h2>
+				<h1>Matriculation | 2004-2016 </h1>
 				<h3>ST. Teresa's School, Bhagalpur | 94.40 %</h3>
 				<h5>10th | ICSE | Science with Computer Applications</h5>
 				<ul>
