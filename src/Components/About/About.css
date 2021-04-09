@@ -1,0 +1,47 @@
+.about {
+	flex-grow: 1;
+	margin: 0px 30px;
+}
+
+.about h1,
+.section-header {
+	margin-bottom: 20px;
+	letter-spacing: 2px;
+}
+
+.section {
+	padding: 0px 10px;
+	margin-bottom: 20px;
+}
+
+p {
+	line-height: 20px;
+	word-spacing: 1px;
+	color: rgb(73, 73, 73);
+}
+
+i {
+	padding-left: 20px;
+}
+
+.content {
+	display: grid;
+	font-size: 17px;
+	font-weight: 400;
+	grid-template-columns: 4fr 1fr;
+}
+
+.content div {
+	margin-bottom: 25px;
+}
+
+.content li {
+	display: inline;
+	margin-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+	.content {
+		grid-template-columns: 1fr;
+	}
+}

@@ -10,7 +10,7 @@
 
 @media (min-width: 800px) {
 	.app {
-		padding: 0 150px;
+		padding: 0 8%;
 		min-height: 95vh;
 	}
 }
