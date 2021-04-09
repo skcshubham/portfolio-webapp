@@ -12,7 +12,7 @@ const Home = () => {
 					<h3>I am Shubham Kumar</h3>
 					<h6>Frontend Engineer</h6>
 				</h1>
-				<Link to="about">
+				<Link to="/education">
 					<button>More Info about me</button>
 				</Link>
 			</div>
