@@ -1,13 +1,18 @@
 .container {
 	padding: 0 20px;
+	margin-bottom: 30px;
+}
+
+.project-description {
+	margin-bottom: 10px;
 }
 
 .grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-gap: 35px;
 	align-items: stretch;
-	margin: 20px;
+	margin: 10px;
 }
 
 .grid > article {

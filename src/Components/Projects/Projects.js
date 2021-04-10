@@ -1,5 +1,8 @@
 import React from "react";
 import "./Projects.css";
+import githubSearch from "./Github-search.png";
+import ecomm from "./E-comm.png";
+import writeCode from "./write-code.png";
 
 const Projects = () => {
 	return (
@@ -7,66 +10,101 @@ const Projects = () => {
 			<div class="container">
 				<main class="grid">
 					<article className="card">
-						<img src="https://picsum.photos/600/400?image=1083" alt="" />
+						<img src={githubSearch} alt="" />
 						<div class="text">
-							<h3>Seamlessly visualize quality</h3>
-							<p>
-								Collaboratively administrate empowered markets via plug-and-play
-								networks.
+							<h2>Github Search</h2>
+							<p className="project-description">
+								A web app that lets users search their Github profile and check
+								their entire profile data as well as their top 5 recent
+								repositories and its details. Built with{" "}
+								<strong>React, </strong>
+								<strong>Hooks</strong> and <strong>React router</strong>.
 							</p>
 							<a
-								href="https://codepen.io/collection/XdWJOQ/"
-								class="btn btn-primary btn-block"
+								href="https://github-search-reactjs.netlify.app/"
+								target="_blank"
+								rel="noreferrer"
+								style={{ color: "blue", textDecoration: "none" }}
 							>
-								Here's why
+								Live link
+							</a>
+							<a
+								href="https://github.com/skcshubham/Github-Search"
+								target="_blank"
+								rel="noreferrer"
+								style={{
+									color: "blue",
+									textDecoration: "none",
+									marginLeft: "20px",
+								}}
+							>
+								Code Repository
 							</a>
 						</div>
 					</article>
 					<article className="card">
-						<img src="https://picsum.photos/600/400?image=1063" alt="" />
+						<img src={ecomm} alt="" />
 						<div class="text">
-							<h3>Completely Synergize</h3>
-							<p>
-								Dramatically engage seamlessly visualize quality intellectual
-								capital without superior collaboration and idea-sharing.
+							<h2>E-commerce Cart</h2>
+							<p className="project-description">
+								An e-commerce web app built with <strong>React, </strong>{" "}
+								<strong>Hooks </strong>
+								and <strong>Commerce.js API</strong>. It also has a demo payment
+								feature that uses the <strong>Google Pay integration</strong>{" "}
+								for React.
 							</p>
 							<a
-								href="https://codepen.io/collection/XdWJOQ/"
-								class="btn btn-primary btn-block"
+								href="https://e-commerce-webapp.netlify.app/"
+								target="_blank"
+								rel="noreferrer"
+								style={{ color: "blue", textDecoration: "none" }}
 							>
-								Here's how
+								Live link
+							</a>
+							<a
+								href="https://github.com/skcshubham/E-commerce-webapp"
+								target="_blank"
+								rel="noreferrer"
+								style={{
+									color: "blue",
+									textDecoration: "none",
+									marginLeft: "20px",
+								}}
+							>
+								Code Repository
 							</a>
 						</div>
 					</article>
 					<article className="card">
-						<img src="https://picsum.photos/600/400?image=1056" alt="" />
-						<div class="text">
-							<h3>Dynamically Procrastinate</h3>
-							<p>
-								Completely synergize resource taxing relationships via premier
-								niche markets.
+						<img src={writeCode} alt="" />
+						<div class="text" style={{ marginTop: "13px" }}>
+							<h2>Write Code</h2>
+							<p className="project-description">
+								An online code editor built with <strong>React</strong>,{" "}
+								<strong>Hooks</strong>, and <strong>Codemirror library</strong>{" "}
+								that lets you code HTML, CSS, and JS online. I have also used{" "}
+								<strong>LocalStorage API</strong> to persist code written in the
+								editor locally.
 							</p>
 							<a
-								href="https://codepen.io/collection/XdWJOQ/"
-								class="btn btn-primary btn-block"
+								href="https://write-code.netlify.app/"
+								target="_blank"
+								rel="noreferrer"
+								style={{ color: "blue", textDecoration: "none" }}
 							>
-								Read more
+								Live link
 							</a>
-						</div>
-					</article>
-					<article className="card">
-						<img src="https://picsum.photos/600/400?image=1050" alt="" />
-						<div class="text">
-							<h3>Best in class</h3>
-							<p>
-								Imagine jumping into that boat, and just letting it sail
-								wherever the wind takes you...
-							</p>
 							<a
-								href="https://codepen.io/collection/XdWJOQ/"
-								class="btn btn-primary btn-block"
+								href="https://github.com/skcshubham/Write-Code"
+								target="_blank"
+								rel="noreferrer"
+								style={{
+									color: "blue",
+									textDecoration: "none",
+									marginLeft: "20px",
+								}}
 							>
-								Just do it...
+								Code Repository
 							</a>
 						</div>
 					</article>
