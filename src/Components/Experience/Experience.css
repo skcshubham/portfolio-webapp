@@ -1,0 +1,23 @@
+.experience-container {
+	flex-grow: 1;
+	margin: 0px 40px;
+}
+
+.experience-container h1,
+h2,
+ul {
+	margin-bottom: 5px;
+}
+
+h5 {
+	font-weight: 400;
+}
+
+.experience-section {
+	margin-bottom: 30px;
+}
+
+li {
+	margin-top: 5px;
+	margin-left: 20px;
+}

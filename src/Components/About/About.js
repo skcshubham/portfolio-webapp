@@ -15,8 +15,8 @@ const About = () => {
 						problem-solving with algorithms and a passion for frontend
 						development. I'm a B.Tech Pre-Final year Computer Science student
 						from SRM IST, Chennai with strong core computer science knowledge of
-						Operating Systems, Database Management System and Data Structures
-						and Algorithms.
+						Operating Systems, Database Management System, SQL and Data
+						Structures and Algorithms.
 					</p>
 				</div>
 			</div>
@@ -25,7 +25,6 @@ const About = () => {
 				<img src={cpp} alt="C++ logo" style={{ width: "68px" }} />
 				<i className="fab fa-html5 fa-5x"></i>
 				<i className="fab fa-css3 fa-5x"></i>
-				<i className="fab fa-bootstrap fa-5x"></i>
 				<i className="fab fa-node-js fa-5x"></i>
 				<i className="fab fa-react fa-5x"></i>
 				<i className="fas fa-database fa-5x"></i>

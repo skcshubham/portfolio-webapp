@@ -36,9 +36,11 @@ const NavBar = () => {
 						style={{
 							textDecoration: "none",
 							color: location.pathname === "/" && "#4071f4",
+							fontSize: "28px",
+							fontWeight: "bold",
 						}}
 					>
-						<h1>HOME</h1>
+						HOME
 					</Link>
 				</div>
 				<div className="list-wrapper">
@@ -73,6 +75,17 @@ const NavBar = () => {
 						</li>
 						<li>
 							<Link
+								to="/projects"
+								onClick={handleClose}
+								style={{
+									color: location.pathname === "/projects" && "#4071f4",
+								}}
+							>
+								Projects
+							</Link>
+						</li>
+						<li>
+							<Link
 								to="/education"
 								onClick={handleClose}
 								style={{
@@ -80,15 +93,6 @@ const NavBar = () => {
 								}}
 							>
 								Education
-							</Link>
-						</li>
-						<li>
-							<Link
-								to="/projects"
-								onClick={handleClose}
-								style={{ color: location.pathname === "/skills" && "#4071f4" }}
-							>
-								Projects
 							</Link>
 						</li>
 						<li>

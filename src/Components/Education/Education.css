@@ -1,13 +1,12 @@
 .education-container {
 	flex-grow: 1;
-	margin: 0px 20px;
+	margin: 10px 30px;
 }
 
 .education-container h1,
 h2,
-h5,
-ul {
-	margin-bottom: 10px;
+h5 {
+	margin-bottom: 6px;
 }
 
 h5 {
@@ -15,10 +14,5 @@ h5 {
 }
 
 .education-section {
-	margin-bottom: 15px;
-}
-
-li {
-	margin-top: 5px;
-	margin-left: 20px;
+	margin-bottom: 30px;
 }
