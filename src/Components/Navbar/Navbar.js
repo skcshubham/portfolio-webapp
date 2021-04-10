@@ -30,7 +30,7 @@ const NavBar = () => {
 	return (
 		<nav className="navbar">
 			<div className="nav-wrapper">
-				<div className="logo">
+				<div className="logo navbar-brand">
 					<Link
 						to="/"
 						style={{
