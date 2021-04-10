@@ -1,6 +1,7 @@
 .education-container {
 	flex-grow: 1;
-	margin: 10px 30px;
+	margin: 0px 30px;
+	margin-top: 50px;
 }
 
 .education-container h1,

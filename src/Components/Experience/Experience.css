@@ -1,6 +1,7 @@
 .experience-container {
 	flex-grow: 1;
 	margin: 0px 40px;
+	margin-top: 50px;
 }
 
 .experience-container h1,
