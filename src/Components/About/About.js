@@ -5,8 +5,6 @@ import cpp from "./C++.png";
 const About = () => {
 	return (
 		<div className="skills about">
-			<h1>About Me</h1>
-
 			<div className="content">
 				<div className="section">
 					<h2 className="section-header">Summary</h2>

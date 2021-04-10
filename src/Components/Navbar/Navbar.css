@@ -3,8 +3,8 @@
 }
 
 .nav-wrapper {
-	margin-top: 20px;
-	margin-bottom: 50px;
+	margin-top: 30px;
+	margin-bottom: 45px;
 	width: 100%;
 	height: 100%;
 	display: flex;
@@ -35,7 +35,7 @@
 	width: 100%;
 	height: 86vh;
 	left: -100vw;
-	padding-top: 140px;
+	padding-top: 160px;
 	text-align: center;
 	position: absolute;
 	transition: all 0.5s ease-in-out;
@@ -44,7 +44,7 @@
 
 .list-wrapper ul li {
 	list-style: none;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 
 .list-wrapper ul li a {
