@@ -32,7 +32,8 @@
 
 .home .person {
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 40px;
+	margin-bottom: 20px;
 	text-align: center;
 }
 
@@ -48,11 +49,23 @@
 	.home .title,
 	.home .person {
 		width: 100%;
-		margin-top: 0;
 		text-align: left;
 		font-size: 22px;
 	}
 	.home .person img {
 		width: 100%;
+	}
+}
+
+@media (max-width: 750px) {
+	.home {
+		margin-top: 10%;
+	}
+	.home .person img {
+		width: 95%;
+	}
+	.home .person {
+		margin-top: 30px;
+		margin-bottom: 20px;
 	}
 }
