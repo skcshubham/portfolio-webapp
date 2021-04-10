@@ -14,7 +14,10 @@ const Footer = () => {
 				<i className="icons fab fa-github fa-2x"></i>
 			</a>
 			<a href="mailto:sk1486@srmist.edu.in" target="_blank" rel="noreferrer">
-				<i class="icons fas fa-envelope fa-2x"></i>
+				<i className="icons fas fa-envelope fa-2x"></i>
+			</a>
+			<a href="tel:+916204872667" target="_blank" rel="noreferrer">
+				<i className="icons fas fa-phone-square-alt fa-2x"></i>
 			</a>
 		</footer>
 	);
