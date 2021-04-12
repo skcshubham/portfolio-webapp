@@ -26,6 +26,7 @@ const About = () => {
 				<i className="fab fa-node-js fa-5x"></i>
 				<i className="fab fa-react fa-5x"></i>
 				<i className="fas fa-database fa-5x"></i>
+				<i className="fab fa-github fa-5x"></i>
 				<i className="fas fa-terminal fa-4x"></i>
 			</div>
 			<div className="section">
