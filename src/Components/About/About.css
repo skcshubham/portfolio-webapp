@@ -41,6 +41,11 @@ i {
 	margin-bottom: 5px;
 }
 
+p,
+li {
+	line-height: 1.5rem;
+}
+
 @media (max-width: 600px) {
 	.content {
 		grid-template-columns: 1fr;
