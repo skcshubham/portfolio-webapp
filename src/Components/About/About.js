@@ -33,7 +33,7 @@ const About = () => {
 				<h2 className="section-header">Achievements</h2>
 				<ul>
 					<li>
-						Top 20 rank among 2200+ students on Geeksforgeeks coding section in
+						Top 20 rank among 2300+ students on Geeksforgeeks coding section in
 						the entire university.{" "}
 						<a
 							href="https://auth.geeksforgeeks.org/user/skcshubham/practice/"
