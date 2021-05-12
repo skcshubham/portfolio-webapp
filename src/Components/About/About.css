@@ -46,6 +46,10 @@ li {
 	line-height: 1.5rem;
 }
 
+img {
+	padding-left: 10px;
+}
+
 @media (max-width: 600px) {
 	.content {
 		grid-template-columns: 1fr;
